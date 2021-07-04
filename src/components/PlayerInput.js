@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux' 
 import { Scoreboard } from '../reducers/reducer'
+import '../styles/PlayerList.css'
+
 
 
 
@@ -20,8 +22,7 @@ export const PlayerInput = ({id}) => {
     setInputValue('')
   }
   return (
-    <form onSubmit={handleSubmit}>
-      <h2>Hello from PlayerInput</h2>
+    <form className="formInput" onSubmit={handleSubmit}>
       <input
         type='text'
         value={inputValue}

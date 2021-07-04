@@ -1,0 +1,30 @@
+.scoreContainer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer {
+  /* display: flex;
+  flex-direction: column; */
+  width: 60%;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+.headerContainer {
+    color: #FFF;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #1d8fac;
+    border-radius: 6px 6px 0 0;
+}
+
+.headerH1 {
+  flex-grow: 1;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
