@@ -33,6 +33,11 @@ ul {
   padding: 0;
 }
 
+section {
+  background-color: #1d8fac;
+  padding: 2em;
+}
+
 .counter {
 justify-content: space-evenly;
 }
@@ -59,7 +64,31 @@ justify-content: space-evenly;
 
 button {
   color: red;
-  margin: 1em;
+  padding: .6em;
+}
+
+.startText { 
+  color: white;
+  font-size: 2em;
+}
+
+.startButton {
+  display: block;
+  font-size: .6em;
+  padding: 10px;
+  background-color: #44338D;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-shadow: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.startButton:hover {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .formInput {
@@ -68,6 +97,22 @@ button {
   border-radius: 0 0 6px 6px;
   padding: 2em;
   justify-content: center;
+}
+
+.startContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #5B45B9;
+  margin: auto;
+  justify-content: center;
+  padding: 5em;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+}
+
+.startContainer > * {
+  margin: auto;
 }
 
 .formInput > input {
